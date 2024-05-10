@@ -11,9 +11,9 @@ package tarea6ed;
 public class Tarea6Ed {
 
     public static void main(String[] args) {
-   
-    Tarea6EDClase miCarrito = new Tarea6EDClase();
 
-    miCarrito.aplicarDescuento(100, 5);
+        Tarea6EDClase miCarrito = new Tarea6EDClase();
+
+        miCarrito.aplicarDescuento(100, 5);
     }
 }

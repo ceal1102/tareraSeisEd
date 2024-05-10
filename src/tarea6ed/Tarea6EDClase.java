@@ -8,14 +8,14 @@ public class Tarea6EDClase {
 
     private static final int limiteDescuento = 3;
 
-    private void descuentoLow(double precioProducto) {
+    private void descuentoMin(double precioProducto) {
         double precioTotal;
         precioTotal = precioProducto * 0.95;
         System.out.println("El total a pagar es:" + precioTotal);
         System.out.println("Enviado");
     }
 
-    private void descuentoHigh(double precioProducto) {
+    private void descuentoMax(double precioProducto) {
         double precioTotal;
         precioTotal = precioProducto * 0.8;
         System.out.println("El total a pagar es:" + precioTotal);
@@ -29,9 +29,9 @@ public class Tarea6EDClase {
             precioProducto -= 5;
         }
         if (numProductos != 0) {
-            descuentoHigh(precioProducto);
+            descuentoMax(precioProducto);
         } else {
-            descuentoLow(precioProducto);
+            descuentoMin(precioProducto);
         }
     }
 }
